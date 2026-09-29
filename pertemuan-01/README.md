@@ -1,0 +1,12 @@
+Struktur awal pertemuan - 01/README.md menggunakan format Markdown berikut.
+# Pertemuan 1 - Pemrograman Web Dasar
+## 1. Konsep Dasar Pemrograman Web
+[Tuliskan pemahaman Anda.]
+## 2. Arsitektur Klien - Peladen
+[Tuliskan pemahaman Anda.]
+## 3. Permi ntaan dan Respons HTTP
+[Tuliskan pemahaman Anda.]
+## 4. HTML, CSS, JavaScript, PHP, dan MySQL
+[Tuliskan pemahaman Anda.]
+## 5. Hubungan Antarteknologi
+[Tuliskan pemahaman Anda.]
