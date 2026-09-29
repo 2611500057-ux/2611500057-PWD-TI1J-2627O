@@ -1,2 +1,8 @@
-# 2611500057-PWD-TI1J-2627O
-Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemomragramn Web Dasar Kelompok SI1J
+# Pemrograman Web Dasar
+Nama: Budi Santoso
+NIM: 0344300002
+Kelompok: TI1A
+Tahun Ajaran: 2026/2027 Gasal
+Repository ini digunakan untuk mendokumentasikan perkembangan pembelajaran mata kuliah
+Pemrograman Web Dasar dari Pertemuan 1 sampai dengan Pertemuan 16.
+Setela
