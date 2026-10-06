@@ -11,5 +11,7 @@ Saya mempelajari :
     <li> membuat css about h2 </li>
     <li> membuat css about h3 </li>
     <li> membuat css about p </li>
+    <li> membuat css about ol </li>
+</ol>
 </ol>
 
