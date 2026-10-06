@@ -5,5 +5,5 @@ Nama : Cantika
  Saya mempelajari
  <ol> 
     <li> Saya Membuat file html di pertemuan kedua </li>
-    <li> 
+    <li> Membuat Heaader pada file html </li>
  </ol>
