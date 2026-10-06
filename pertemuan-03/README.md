@@ -9,5 +9,6 @@ Saya mempelajari :
     <li> membuat style untuk kode css dasar </li>
     <li> membuat css about </li>
     <li> membuat css about h2 </li>
+    <li> membuat css about h3 </li>
 </ol>
 
