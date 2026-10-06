@@ -15,6 +15,7 @@ Saya mempelajari :
     <li> sekarang habis melakukan css dasar pada bagian about sekarang berpindah ke contact </li>
     <li> membuat css contact h2 </li>
     <li> membuat css contact label </li>
+    <li> membuat contact untuk bagian button </li>
 </ol>
 </ol>
 
