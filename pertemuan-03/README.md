@@ -8,5 +8,6 @@ Saya mempelajari :
     <li> membuat atau Menambahkan Formulir pada section#contact </li>
     <li> membuat style untuk kode css dasar </li>
     <li> membuat css about </li>
+    <li> membuat css about h2 </li>
 </ol>
 
