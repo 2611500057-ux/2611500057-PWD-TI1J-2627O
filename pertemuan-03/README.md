@@ -5,5 +5,6 @@ Nama : Cantika
 Saya mempelajari :
 <ol> 
     <li> Mengcopy pertemuan kedua lalu menaruh di pertemuan ketiga </li>
+    <li> membuat atau Menambahkan Formulir pada section#contact </li>
 </ol>
 
