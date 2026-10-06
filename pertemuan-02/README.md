@@ -6,4 +6,5 @@ Nama : Cantika
  <ol> 
     <li> Saya Membuat file html di pertemuan kedua </li>
     <li> Membuat Heaader pada file html </li>
+    <li> Membuat href tentang,minat,rencana dan kontak </li>
  </ol>
