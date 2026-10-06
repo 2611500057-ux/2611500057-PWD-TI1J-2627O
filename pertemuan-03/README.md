@@ -13,6 +13,7 @@ Saya mempelajari :
     <li> membuat css about p </li>
     <li> membuat css about ol </li>
     <li> sekarang habis melakukan css dasar pada bagian about sekarang berpindah ke contact </li>
+    <li> membuat css contact h2 </li>
 </ol>
 </ol>
 
