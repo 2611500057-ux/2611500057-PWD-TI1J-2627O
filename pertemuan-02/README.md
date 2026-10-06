@@ -9,4 +9,5 @@ Nama : Cantika
     <li> Membuat href tentang,minat,rencana dan kontak </li>
     <li> sedikit memperbaiki kesalahan kode dan menambah img </li>
     <li> membuat section about yang berisiprofil singkat dan target belajar saya </li>
+    <li?> membuat section conctact yang berisi link github saya, dan membuat footer </li>
  </ol>
