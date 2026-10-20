@@ -4,5 +4,6 @@ Nama : Cantika
 
 Hari ini saya mempelajari:
 <ol> 
-    <li> mengcopy index.html pada pertemuan ketiga</li>
+    <li> mengcopy index.html pada pertemuan ketiga </li>
+    <li> membuat file baru yang bernama style.css </li>
 </ol> 
