@@ -1,5 +1,12 @@
 <?php
-echo "PHP berhasil dijalankan.";
+$nim = "2611500057";
+$namaMahasiswa = "Cantika";
+$programStudi = "TI";
+$tahunAkademik = "2026/2027";
+$semester = 1;
+$ipk = 3.75;
+$statusAktif = true;
+$catatanTambahan = null;
 ?>
 
 <!DOCTYPE html>

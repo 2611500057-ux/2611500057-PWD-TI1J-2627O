@@ -7,4 +7,5 @@ Hari ini saya mempelajari:
     <li>mengcopy seluruh file pada pertemuan kelima ke pertemuan ke enam</li>
     <li>mengubah file index.html ke index.php</li>
     <li>pengujian komentar, echo, tag dasar PHP</li>
+    <li>menambahkan deklarasi variabel PHP</li>
 </ol> 
