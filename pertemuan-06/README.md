@@ -5,3 +5,6 @@ Nama : Cantika
 Hari ini saya mempelajari:
 <ol> 
     <li>mengcopy seluruh file pada pertemuan kelima ke pertemuan ke enam</li>
+    <li>mengubah file index.html ke index.php</li>
+    <li>pengujian komentar, echo, tag dasar PHP</li>
+</ol> 

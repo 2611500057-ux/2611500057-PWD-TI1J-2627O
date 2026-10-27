@@ -1,3 +1,7 @@
+<?php
+echo "PHP berhasil dijalankan.";
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
