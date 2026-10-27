@@ -10,4 +10,5 @@ Hari ini saya mempelajari:
     <li>menambahkan deklarasi variabel PHP</li>
     <li>menampilkan data mahasiswa dengan variabel dan konstanta</li>
     <li>menerapkan operator aritmetika dan pemeriksaan rentang semester</li>
+    <li>menerapkan percabangan if elseif else, dan operator ternary pada profil mahasiswa</li>
 </ol> 
