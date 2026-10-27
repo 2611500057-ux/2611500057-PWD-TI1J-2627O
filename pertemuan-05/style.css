@@ -145,6 +145,16 @@ main {
     border: 1px solid #003366;
 }
 
+.form-feedback-error {
+    color: #c62828;
+    font-weight: bold;
+}
+
+.form-feedback-success {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
 footer {
     background-color: #003366;
     color: #ffffff;

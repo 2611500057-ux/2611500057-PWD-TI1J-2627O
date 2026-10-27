@@ -8,4 +8,5 @@ Hari ini saya mempelajari:
     <li> membuat file script.js </li>
     <li> menambahkan script.js pada index.html</li>
     <li>Menambahkan hamburger menu responsif</li>
+    <li>Menambahkan validasi formulir pada script.js</li>
 </ol> 
