@@ -10,4 +10,5 @@ Hari ini saya mempelajari:
     <li>Menambahkan hamburger menu responsif</li>
     <li>Menambahkan validasi formulir pada script.js</li>
     <li>Menambahkan atribut novalidate pada form di index.html</li>
+    <li>Menambahkan pesan umpan balik merah dan hijau pada style.css</li>
 </ol> 
