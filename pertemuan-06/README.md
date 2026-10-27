@@ -9,4 +9,5 @@ Hari ini saya mempelajari:
     <li>pengujian komentar, echo, tag dasar PHP</li>
     <li>menambahkan deklarasi variabel PHP</li>
     <li>menampilkan data mahasiswa dengan variabel dan konstanta</li>
+    <li>menerapkan operator aritmetika dan pemeriksaan rentang semester</li>
 </ol> 
