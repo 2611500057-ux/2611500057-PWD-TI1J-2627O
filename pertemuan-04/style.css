@@ -1,0 +1,30 @@
+#about {
+    background-color: #ffffff;
+    border: 1px solid #d0d7de;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+#about h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+}
+
+#about h3 {
+    color: #1f4e78;
+    margin-bottom: 6px;
+}
+
+/* dst sampai */
+
+#contact button {
+    background-color: #003366;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 14px;
+    margin: 8px 6px 0 0;
+    border: 1px solid #003366;
+}

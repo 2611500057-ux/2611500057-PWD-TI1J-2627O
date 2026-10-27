@@ -6,4 +6,5 @@ Hari ini saya mempelajari:
 <ol> 
     <li> mengcopy index.html pada pertemuan ketiga </li>
     <li> membuat file baru yang bernama style.css </li>
+    <li> Memisahkan CSS dari index.html ke dalam style.css</li>
 </ol> 
