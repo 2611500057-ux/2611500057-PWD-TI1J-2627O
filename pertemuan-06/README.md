@@ -8,4 +8,5 @@ Hari ini saya mempelajari:
     <li>mengubah file index.html ke index.php</li>
     <li>pengujian komentar, echo, tag dasar PHP</li>
     <li>menambahkan deklarasi variabel PHP</li>
+    <li>menampilkan data mahasiswa dengan variabel dan konstanta</li>
 </ol> 
