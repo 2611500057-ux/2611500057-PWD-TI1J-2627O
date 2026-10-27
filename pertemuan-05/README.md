@@ -7,4 +7,5 @@ Hari ini saya mempelajari:
     <li> mengcopy index.html dan Style.css pada pertemuan keEmpat </li>
     <li> membuat file script.js </li>
     <li> menambahkan script.js pada index.html</li>
+    <li>Menambahkan hamburger menu responsif</li>
 </ol> 
