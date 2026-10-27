@@ -11,4 +11,5 @@ Hari ini saya mempelajari:
     <li>menampilkan data mahasiswa dengan variabel dan konstanta</li>
     <li>menerapkan operator aritmetika dan pemeriksaan rentang semester</li>
     <li>menerapkan percabangan if elseif else, dan operator ternary pada profil mahasiswa</li>
+    <li>menerapkan perulangan while untuk nomor semester</li>
 </ol> 
