@@ -9,4 +9,5 @@ Hari ini saya mempelajari:
     <li> menambahkan script.js pada index.html</li>
     <li>Menambahkan hamburger menu responsif</li>
     <li>Menambahkan validasi formulir pada script.js</li>
+    <li>Menambahkan atribut novalidate pada form di index.html</li>
 </ol> 
