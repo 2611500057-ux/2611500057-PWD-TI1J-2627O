@@ -7,4 +7,5 @@ Hari ini saya mempelajari:
     <li>menngcopy ppertemuan 6 ke pertemuan 7 </li>
     <li>mengubah formulir utama menjadi POST </li>
     <li>membuat indexGet.php </li>
+    <li>mengisi kode di indexGet.php </li>
 </ol> 
