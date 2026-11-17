@@ -1,6 +1,19 @@
 <?php
 session_start();
 
+include("fungsi.php");
+
+echo "hai <b>sayang</b> kamu";
+echo bersihkan("hai <b>sayang</b> kamu");
+echo "<script>alert('hai');</script>";
+echo bersihkan("<script>alert('hai');</script>");
+// echo "<style>
+// {
+//     font-weight: bolder;
+//     color: white;
+// }
+// </style>";
+
 $contohArray = ["isma", "fitri", "indriani"];
 echo $contohArray[0];
 
@@ -20,20 +33,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 		$minat = [];
 	}
 
-	// Menyimpan setiap nilai formulir ke dalam session secara terpisah.
-	$_SESSION["nama"] = $nama;
-	$_SESSION["email"] = $email;
-	$_SESSION["semester"] = $semesterForm;
-	$_SESSION["tanggal"] = $tanggal;
-	$_SESSION["jenis_pesan"] = $jenisPesan;
-	$_SESSION["minat"] = $minat;
-	$_SESSION["prodi"] = $prodi;
-	$_SESSION["pesan"] = $pesan;
+	// Menyimpan ke dalam array session
+	$_SESSION["form_data"] = [
+		"nama" => $nama,
+		"email" => $email,
+		"semester" => $semesterForm,
+		"tanggal" => $tanggal,
+		"jenis_pesan" => $jenisPesan,
+		"minat" => $minat,
+		"prodi" => $prodi,
+		"pesan" => $pesan
+	];
 
 	// PRG: mencegah pengiriman POST berulang ketika halaman dimuat ulang.
 	header("Location: index.php#contact");
 	exit;
 }
+
+echo $_SESSION["form_data"]["nama"] ?? "";
 
 // Mengamankan data sebelum ditampilkan kembali ke halaman HTML.
 // P6: PHP dasar dan pemrograman sisi peladen
@@ -265,19 +282,34 @@ switch ($programStudi) {
 				<p class="form-feedback" data-form-feedback aria-live="polite"></p>
 			</form>
 
-			<?php if (isset($_SESSION["nama"])): ?>
+			<?php if (isset($_SESSION["form_data"])): ?>
 				<article id="hasilKontak" class="submission-result" aria-live="polite">
 					<h3>Data Formulir yang Dikirim</h3>
-					<p><strong>Nama Lengkap:</strong> <?= htmlspecialchars($_SESSION["nama"] ?? "", ENT_QUOTES, "UTF-8") ?></p>
-					<p><strong>Email:</strong> <?= htmlspecialchars($_SESSION["email"] ?? "", ENT_QUOTES, "UTF-8") ?></p>
-					<p><strong>Semester:</strong> <?= htmlspecialchars($_SESSION["semester"] ?? "", ENT_QUOTES, "UTF-8") ?></p>
-					<p><strong>Tanggal Kunjungan:</strong> <?= htmlspecialchars($_SESSION["tanggal"] ?? "", ENT_QUOTES, "UTF-8") ?></p>
-					<p><strong>Jenis Pesan:</strong> <?= htmlspecialchars($_SESSION["jenis_pesan"] ?? "", ENT_QUOTES, "UTF-8") ?></p>
-					<p><strong>Topik yang Diminati:</strong>
-						<?= htmlspecialchars(implode(", ", $_SESSION["minat"] ?? []), ENT_QUOTES, "UTF-8") ?>
-					</p>
-					<p><strong>Program Studi:</strong> <?= htmlspecialchars($_SESSION["prodi"] ?? "", ENT_QUOTES, "UTF-8") ?></p>
-					<p><strong>Pesan:</strong> <?= nl2br(htmlspecialchars($_SESSION["pesan"] ?? "", ENT_QUOTES, "UTF-8")) ?></p>
+					<?php
+					$labels = [
+						"nama" => "Nama Lengkap",
+						"email" => "Email",
+						"semester" => "Semester",
+						"tanggal" => "Tanggal Kunjungan",
+						"jenis_pesan" => "Jenis Pesan",
+						"minat" => "Topik yang Diminati",
+						"prodi" => "Program Studi",
+						"pesan" => "Pesan"
+					];
+
+				foreach ($labels as $key => $label):
+					$value = $_SESSION["form_data"][$key] ?? "";
+					if ($key === "minat"):
+						$displayValue = is_array($value) ? implode(", ", $value) : "";
+						$displayValue = bersihkan($displayValue);
+					elseif ($key === "pesan"):
+						$displayValue = nl2br(bersihkan($value));
+					else:
+						$displayValue = bersihkan($value);
+					endif;
+				?>
+					<p><strong><?= tebal(bersihkan($label)) ?>:</strong> <?= $displayValue ?></p>
+				<?php endforeach; ?>
 				</article>
 			<?php endif; ?>
 		</section>
