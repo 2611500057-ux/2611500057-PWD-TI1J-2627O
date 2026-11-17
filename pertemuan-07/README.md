@@ -9,4 +9,5 @@ Hari ini saya mempelajari:
     <li>membuat indexGet.php </li>
     <li>mengisi kode di indexGet.php </li>
     <li>memodifikasi js sesuai modul </li>
+    <li>menyelesaikan seluruh modul P7: GET, POST, Validasi, Session, dan PRG</li>
 </ol> 
