@@ -5,4 +5,5 @@ Nama : Cantika
 Hari ini saya mempelajari:
 <ol> 
     <li>menngcopy ppertemuan 6 ke pertemuan 7 </li>
+    <li>mengubah formulir utama menjadi POST </li>
 </ol> 

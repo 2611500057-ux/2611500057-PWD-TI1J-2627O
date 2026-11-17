@@ -1,4 +1,19 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['nama'])) {
+        $nama_post = $_POST['nama'];
+        echo "<div style='background-color: #d4edda; color: #155724; padding: 10px; text-align: center; border-bottom: 2px solid #c3e6cb;'>";
+        echo "<strong>Data POST diterima:</strong> " . htmlspecialchars($nama_post, ENT_QUOTES, 'UTF-8');
+        echo "</div>";
+    }
+}
+
+if (isset($_GET['nama'])) {
+    $nama_get = $_GET['nama'];
+    echo "<div style='background-color: #cce5ff; color: #004085; padding: 10px; text-align: center; border-bottom: 2px solid #b8daff;'>";
+    echo "<strong>Data GET diterima:</strong> " . htmlspecialchars($nama_get, ENT_QUOTES, 'UTF-8');
+    echo "</div>";
+}
 
 $nim = "2611500057";
 $namaMahasiswa = "Cantika";
@@ -12,13 +27,11 @@ $catatanTambahan = null;
 const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
 const PROFIL_GITHUB = "2611500057-ux";
 
-// Bagian 2: Operator
 $batasSemester = 8;
 $sisaSemester = $batasSemester - $semester;
 $semesterValid = $semester >= 1 && $semester <= $batasSemester;
 $statusSemester = ($semesterValid && $statusAktif) ? "Sesuai rentang" : "Perlu diperiksa";
 
-// Bagian 3: Percabangan if-elseif-else
 if ($semester < 3) {
     $keteranganSemester = "Semester awal";
 } elseif ($semester <= 6) {
@@ -141,7 +154,7 @@ switch ($programStudi) {
                     $nomorSemester = 1;
                     while ($nomorSemester <= 3) {
                         echo "<li>Semester " . $nomorSemester . "</li>";
-                        $nomorSemester++; // operator penugasan
+                        $nomorSemester++;
                     }
                     ?>
                 </ol>
@@ -160,7 +173,7 @@ switch ($programStudi) {
                 </a>.
             </p>
 
-            <form id="contactForm" action="index.php" method="get" novalidate>
+            <form id="contactForm" action="index.php" method="post" novalidate>
 
                 <div class="form-group">
                     <label for="nama">Nama Lengkap</label><br>
@@ -320,7 +333,7 @@ switch ($programStudi) {
 
     <footer>
         <p>&copy; <?= date("Y") ?> <?php echo $namaMahasiswa; ?> [<?= $nim ?>]</p>
-        <p>Pemrograman Web Dasar - Pertemuan 6</p>
+        <p>Pemrograman Web Dasar - Pertemuan 7</p>
     </footer>
 
     <script src="script.js"></script>
