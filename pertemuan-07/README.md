@@ -8,4 +8,5 @@ Hari ini saya mempelajari:
     <li>mengubah formulir utama menjadi POST </li>
     <li>membuat indexGet.php </li>
     <li>mengisi kode di indexGet.php </li>
+    <li>memodifikasi js sesuai modul </li>
 </ol> 

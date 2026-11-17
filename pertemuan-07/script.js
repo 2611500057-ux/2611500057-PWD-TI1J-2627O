@@ -30,6 +30,7 @@ function showError(message) {
 }
 
 contactForm.addEventListener("submit", (event) => {
+    // Tetap gunakan preventDefault agar form tidak langsung terkirim sebelum divalidasi
     event.preventDefault();
 
     const nama = namaInput.value.trim();
@@ -86,8 +87,12 @@ contactForm.addEventListener("submit", (event) => {
         return;
     }
 
+    // Jika semua validasi lolos, tampilkan pesan sukses
     formFeedback.className = "form-feedback-success";
     formFeedback.textContent = "Form berhasil divalidasi.";
+    
+    // P7: Tambahkan baris ini agar form dikirim ke server (PHP)
+    contactForm.submit(); 
 });
 
 contactForm.addEventListener("input", () => {
