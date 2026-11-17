@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+$contohArray = ["isma", "fitri", "indriani"];
+echo $contohArray[0];
+
 // P7: Memproses data formulir dan menyimpannya ke dalam session.
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 	$nama = trim((string) ($_POST["nama"] ?? ""));
